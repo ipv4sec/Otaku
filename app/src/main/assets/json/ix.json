@@ -1,0 +1,75 @@
+{
+  "modelName": "IX在线",
+  "modelUrl": "http:\/\/api.iixxzyapi.com",
+  "modelVersion": "2019.12.07",
+  "requestCharset": "utf-8",
+  "resultCharset": "utf-8",
+  "ruleResult": "<video>[\\s\\S]*?<\/video>",
+  "ruleResultCover": "<pic>(.*?)<\/pic>",
+  "ruleResultTitle": "<name><!\\[CDATA\\[(.*?)\\]\\]><\/name>",
+  "ruleResultLink": "<dd flag=\"ckm3u8\"><!\\[CDATA\\[.*?(http.*?)\\]\\]>",
+  "ruleResultDate": "(\\d{4}-\\d{2}-\\d{2})",
+  "hasDetailPage": false,
+  "tabModels": [
+    {
+      "title": "东京热",
+      "url": "\/inc\/api.php?ac=videolist&t=3&pg=%page"
+    },
+    {
+      "title": "VR视频",
+      "url": "\/inc\/api.php?ac=videolist&t=4&pg=%page"
+    },
+    {
+      "title": "自拍视频",
+      "url": "\/inc\/api.php?ac=videolist&t=5&pg=%page"
+    },
+    {
+      "title": "亚洲视频",
+      "url": "\/inc\/api.php?ac=videolist&t=6&pg=%page"
+    },
+    {
+      "title": "欧美视频",
+      "url": "\/inc\/api.php?ac=videolist&t=7&pg=%page"
+    },
+    {
+      "title": "动漫视频",
+      "url": "\/inc\/api.php?ac=videolist&t=8&pg=%page"
+    },
+    {
+      "title": "伦理片",
+      "url": "\/inc\/api.php?ac=videolist&t=9&pg=%page"
+    },
+    {
+      "title": "一本道",
+      "url": "\/inc\/api.php?ac=videolist&t=10&pg=%page"
+    },
+    {
+      "title": "JAVHD",
+      "url": "\/inc\/api.php?ac=videolist&t=11&pg=%page"
+    },
+    {
+      "title": "无码视频",
+      "url": "\/inc\/api.php?ac=videolist&t=12&pg=%page"
+    },
+    {
+      "title": "有码视频",
+      "url": "\/inc\/api.php?ac=videolist&t=13&pg=%page"
+    },
+    {
+      "title": "女女视频",
+      "url": "\/inc\/api.php?ac=videolist&t=14&pg=%page"
+    },
+    {
+      "title": "群交视频",
+      "url": "\/inc\/api.php?ac=videolist&t=15&pg=%page"
+    },
+    {
+      "title": "福利视频",
+      "url": "\/inc\/api.php?ac=videolist&t=16&pg=%page"
+    },
+    {
+      "title": "中文字幕",
+      "url": "\/inc\/api.php?ac=videolist&t=17&pg=%page"
+    }
+  ]
+}
